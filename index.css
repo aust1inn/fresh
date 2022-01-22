@@ -1,0 +1,10 @@
+ol {
+    border: blue;
+    
+    /*Add your CSS below this line*/
+
+    max-width: 300;
+
+    max-height: 300;
+
+  }
