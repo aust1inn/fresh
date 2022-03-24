@@ -30,102 +30,17 @@ span#no {
 }
 
 
-/* h1{
-    font-size: 60px;
-    margin-top: 20px;
-    text-transform:uppercase;
-    font-weight:600;
-    
-    text-align:center;
 
-    color:white;
-    font-family:poppins;
-} */
-/* .nav{
-    position:relative;
-    float: right;
-    align-items: center;
-    list-style-type: none;
-    background-color:rgb(100, 29, 29);
-    width: 97%;
-    transition: 0.5s;
-    padding: 15px;
-    margin-top: 5px;
-} */
-/* ul{
-    display: inline-block;
-    display:flex;
-    align-items:center;
-}
- ul li{
-    display: inline-block;
-}
-ul li a{
-    padding: 5px;
-    align-items: center;
-    text-decoration: none;
+
+/* contact form styles */
+
+.my-contact {
+    background-image: url("../IMG/landing3.jpg");
+    background-size: 100% 100%;
+    margin-top: 20%;
     color: white;
 }
-#myAnchor{
-    display: inline-block;
-    font-size: 12px;
-    font-family: Poppins;
-}
-ul li a:hover{
-    transition: 0.5s;
-    background-color: rgb(30, 32, 32);
-    color:rgb(161, 144, 144);
-}
-.welcome-text{
-    position: relative;
-    width: 500px;
-    height: 400px;
-    margin:20% 30%;
-    font: size 45px;
-    text-align: center;
-    color: white;
-}
-p{
-    font-size: 20px;
-    color: white;
-    align-items:center;
-    text-align:center;
-}
-.container {
-    display:flex;
-    background-color: white;
-    position: relative;
-    /* max-width: 800px; Maximum width */
-    margin: 0 auto; /* Center it */
 
+.col-md-6 , .col-sm-6 , .col-md-12 , .col-sm-12{
+    margin-bottom: 2%;
 }
-/* .img1,.img2{
-    position: relative;
-    max-width: 900px; /* Maximum width */
-    margin: 0 auto; /* Center it */
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-}
-.content {
-    position: absolute;
-    bottom: 0; 
-    background: rgb(0, 0, 0); 
-    background: rgba(0, 0, 0, 0.5); 
-    color: #f1f1f1;
-    width: 50%; 
-    padding: 15px; 
-}
-
-
-.icons{
-    height: 60px;
-    width: 100px;
-    display:flex;
-    /* flex-directionflow(row ) */
-    /* align-items:center; */
-    /* padding-left: 20px; */
-    /* padding10px;-inline-end: */
-    color: white;
-
-} */ */
