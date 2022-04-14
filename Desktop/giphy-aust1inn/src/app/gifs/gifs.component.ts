@@ -22,7 +22,7 @@ export class GifsComponent implements OnInit, OnDestroy {
 
     .subscribe((response:any) => {
       this.gifs = response;
-      console.log(response)
+      console.log('Data',response)
     })
 }
 
