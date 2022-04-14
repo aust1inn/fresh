@@ -1,21 +1,33 @@
 import { DataService } from './../data.service';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-gifs',
   templateUrl: './gifs.component.html',
   styleUrls: ['./gifs.component.css']
 })
-export class GifsComponent implements OnInit {
+export class GifsComponent implements OnInit, OnDestroy {
 
   constructor(private dataService:DataService) { }
 
+  gifs:any[]=[];
+  subscription!:Subscription
+
+
+
   ngOnInit(): void {
     this.dataService.getTrendingGifs()
-    .subscribe((response:any) => {
+    this.subscription=this.dataService.getGifs()
 
-      console.log('Data',response);
-  })
+    .subscribe((response:any) => {
+      this.gifs = response;
+      console.log(response)
+    })
+}
+
+ngOnDestroy(): void {
+    this.subscription.unsubscribe();
 }
 
 }
